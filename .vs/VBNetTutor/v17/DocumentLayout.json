@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Documents\\Visual Studio 2022\\Project\\VBNetTutor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4E98AE35-FDEF-4979-BD66-3B1FDF3939F6}|VBNetTutor\\VBNetTutor.vbproj|c:\\users\\administrator\\documents\\visual studio 2022\\project\\vbnettutor\\vbnettutor\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{4E98AE35-FDEF-4979-BD66-3B1FDF3939F6}|VBNetTutor\\VBNetTutor.vbproj|solutionrelative:vbnettutor\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E98AE35-FDEF-4979-BD66-3B1FDF3939F6}|VBNetTutor\\VBNetTutor.vbproj|C:\\Users\\Administrator\\Documents\\Visual Studio 2022\\Project\\VBNetTutor\\vbnettutor\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{4E98AE35-FDEF-4979-BD66-3B1FDF3939F6}|VBNetTutor\\VBNetTutor.vbproj|solutionrelative:vbnettutor\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E98AE35-FDEF-4979-BD66-3B1FDF3939F6}|VBNetTutor\\VBNetTutor.vbproj|C:\\Users\\Administrator\\Documents\\Visual Studio 2022\\Project\\VBNetTutor\\vbnettutor\\module1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{4E98AE35-FDEF-4979-BD66-3B1FDF3939F6}|VBNetTutor\\VBNetTutor.vbproj|solutionrelative:vbnettutor\\module1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Module1.vb",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Visual Studio 2022\\Project\\VBNetTutor\\VBNetTutor\\Module1.vb",
+              "RelativeDocumentMoniker": "VBNetTutor\\Module1.vb",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Visual Studio 2022\\Project\\VBNetTutor\\VBNetTutor\\Module1.vb",
+              "RelativeToolTip": "VBNetTutor\\Module1.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-18T15:31:30.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Visual Studio 2022\\Project\\VBNetTutor\\VBNetTutor\\Form1.vb",
+              "RelativeDocumentMoniker": "VBNetTutor\\Form1.vb",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Visual Studio 2022\\Project\\VBNetTutor\\VBNetTutor\\Form1.vb",
+              "RelativeToolTip": "VBNetTutor\\Form1.vb",
+              "ViewState": "AQIAAJwAAAAAAAAAAAAlwKsAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-18T15:07:34.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Visual Studio 2022\\Project\\VBNetTutor\\VBNetTutor\\Form1.vb",
+              "RelativeDocumentMoniker": "VBNetTutor\\Form1.vb",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Visual Studio 2022\\Project\\VBNetTutor\\VBNetTutor\\Form1.vb [Design]",
+              "RelativeToolTip": "VBNetTutor\\Form1.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-17T18:00:30.022Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

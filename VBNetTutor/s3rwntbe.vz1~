@@ -1,0 +1,58 @@
+﻿Imports System.Data.SqlClient
+Public Class Form1
+    'connect to MSQL
+    Dim conn As New SqlConnection("Server = DESKTOP-QKNE475; Database = Supermarketdb; Integrated Security = true")
+
+    Private Function vld(ByVal ParamArray ctl() As Object) As Boolean
+        'this function checks for empty field
+        For i As Integer = 0 To UBound(ctl)
+            If ctl(i).text = "" Then
+                Return False
+                Exit Function
+            End If
+        Next
+        Return True
+    End Function
+    Private Sub btnadd_Click(sender As Object, e As EventArgs) Handles btnadd.Click
+        'first let check validation
+        If vld(txtbsn, txtbgn, txtbbn, txtbii, txtbq, txtbbno, txtbp, txtbr) = False Then
+            MsgBox("Complete the form first", MsgBoxStyle.Critical)
+        Else
+            'check for duplication, to do this we use serial number as primary key
+            conn.Open()
+            Dim cmdep As SqlCommand = New SqlCommand("select id from stocktbl where id=@cosid", conn)
+            cmdep.Parameters.AddWithValue("@cosid", txtbsn.Text)
+            Dim rdrp As SqlDataReader = cmdep.ExecuteReader()
+            If rdrp.HasRows Then
+                MsgBox("Stock serial number already exist please try again!", MsgBoxStyle.Critical)
+            Else
+                'insert detail into db
+                Dim status As Integer = 1
+                Dim insrt As String = "insert into stocktbl(id,genericname,brandname,importedid,quantity,batchno,price,manufactureddate,expireddate,remark,status) values('" & txtbsn.Text & "','" & txtbgn.Text & "','" & txtbbn.Text & "','" & txtbii.Text & "','" & txtbq.Text & "','" & txtbbno.Text & "','" & txtbp.Text & "','" & DateTimePickermd.Value.ToShortDateString() & "','" & DateTimePickered.Value.ToShortDateString() & "','" & txtbr.Text & "','" & status & "')"
+                InsertUpdateDelete(insrt)
+                MessageBox.Show("Data successfully added", "Data Added", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                txtbsn.Clear()
+                txtbgn.Clear()
+                txtbii.Clear()
+                txtbbn.Clear()
+                txtbq.Clear()
+                txtbbno.Clear()
+                txtbq.Clear()
+                txtbp.Clear()
+                txtbr.Clear()
+            End If
+        End If
+        conn.Close()
+    End Sub
+    Private Sub btnclear_Click(sender As Object, e As EventArgs) Handles btnclear.Click
+        txtbsn.Clear()
+        txtbgn.Clear()
+        txtbii.Clear()
+        txtbbn.Clear()
+        txtbq.Clear()
+        txtbbno.Clear()
+        txtbq.Clear()
+        txtbp.Clear()
+        txtbr.Clear()
+    End Sub
+End Class
