@@ -4,5 +4,5 @@ This tutor is for CRUDS Operation using VB.NET and SQL.  In this tutor you learn
 *   **Programming Language:**  VB.NET
 *   **Database:**  SQL 
 ## Installation
-1.  **Prerequisites:**
+  **Prerequisites:**
     * Visual Studio 2017 or latest and SQL Server 2014 or latest should install on your system.
